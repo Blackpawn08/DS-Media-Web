@@ -1,5 +1,5 @@
 import React,{useEffect} from "react";
-import "../css/WorksInner.css";
+import "../css/worksinner.css";
 import WorksInner1 from "../images/worksinner/WorksInner1.png";
 import WorksInner2 from "../images/worksinner/WorksInner2.png";
 import WorksInner3 from "../images/worksinner/WorksInner3.png";
