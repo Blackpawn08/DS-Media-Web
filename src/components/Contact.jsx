@@ -6,8 +6,8 @@ import emailjs from "emailjs-com";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
 import { Carousel } from "./Carousel";
-import Abovefooter from "./abovefooter";
-import Footer from "./Footer";
+import Abovefooter from "../components/Abovefooter";
+import Footer from "../components/Footer";
 
 const Contact = () => {
   useEffect(() => {

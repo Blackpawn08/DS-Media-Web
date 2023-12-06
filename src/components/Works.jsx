@@ -14,7 +14,7 @@ import works8 from "../images/works/works8.png";
 import works9 from "../images/works/works9.png";
 import {MdOutlineDoubleArrow} from "react-icons/md";
 import { Carousel } from "./Carousel";
-import Abovefooter from "./abovefooter";
+import Abovefooter from "../components/Abovefooter";
 import Footer from "./Footer";
 
 const Works = () => {

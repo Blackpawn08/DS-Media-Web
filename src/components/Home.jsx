@@ -9,8 +9,8 @@ import home5 from "../images/home/home5.png";
 import home6client from "../images/home/home6client.png";
 import home7apos from "../images/home/home7apos.png";
 import { Carousel } from "./Carousel";
-import Footer from "./Footer";
-import Abovefooter from "./abovefooter";
+import Footer from "../components/Footer";
+import Abovefooter from "../components/Abovefooter";
 import circle from "../images/circles/circle.png";
 import { Link } from "react-router-dom";
 

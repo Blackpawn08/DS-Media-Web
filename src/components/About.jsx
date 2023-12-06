@@ -12,7 +12,7 @@ import client from "../images/about/client.png";
 import { TbArrowsJoin2 } from "react-icons/tb";
 import circle from "../images/circles/circle.png";
 import { Carousel } from "./Carousel";
-import Abovefooter from "./abovefooter";
+import Abovefooter from "../components/Abovefooter";
 import HorizontalSlider from "./HorizontalSlider";
 
 

@@ -3,7 +3,7 @@ import "../css/services.css";
 import services1 from "../images/services/services1.png";
 import { TbArrowsJoin2 } from "react-icons/tb";
 import { Carousel } from "./Carousel";
-import Abovefooter from "./abovefooter";
+import Abovefooter from "../components/Abovefooter";
 import Footer from "./Footer";
 import circle from "../images/circles/circle.png";
 

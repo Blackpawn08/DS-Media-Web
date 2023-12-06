@@ -6,7 +6,7 @@ import WorksInner3 from "../images/worksinner/WorksInner3.png";
 import WorksInner4 from "../images/worksinner/WorksInner4.png";
 import WorksInner5 from "../images/worksinner/WorksInner5.png";
 import { Carousel } from "./Carousel";
-import Abovefooter from "./abovefooter";
+import Abovefooter from "../components/Abovefooter";
 import Footer from "./Footer";
 
 const WorksInner = () => {

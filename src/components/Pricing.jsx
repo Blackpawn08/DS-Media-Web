@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "../css/pricing.css";
 import { Carousel } from "./Carousel";
-import Abovefooter from "./abovefooter";
+import Abovefooter from "../components/Abovefooter";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 
