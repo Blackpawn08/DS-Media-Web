@@ -5,7 +5,7 @@ import abovefooterbot from "../images/footer/abovefooterbot.png";
 import { Link } from "react-router-dom";
 
 
-const abovefooter = () => {
+const Abovefooter = () => {
  
   return (
     <div className="abovefooter-div">
@@ -33,4 +33,4 @@ const abovefooter = () => {
   );
 };
 
-export default abovefooter;
+export default Abovefooter;
