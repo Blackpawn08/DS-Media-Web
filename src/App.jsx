@@ -9,8 +9,8 @@ import Works from "../src/components/Works";
 import Pricing from "../src/components/Pricing";
 import Contact from "../src/components/Contact";
 import WorksInner from "../src/components/WorksInner";
-import Privacypolicy from "./components/Privacypolicy";
-import ScrollToTopButton from "./components/scrollToTop";
+import Privacypolicy from "../src/components/Privacypolicy";
+import ScrollToTopButton from "../src/components/scrollToTop";
 
 function App() {
   const location = useLocation();
