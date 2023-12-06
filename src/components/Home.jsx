@@ -10,7 +10,7 @@ import home6client from "../images/home/home6client.png";
 import home7apos from "../images/home/home7apos.png";
 import { Carousel } from "./Carousel";
 import Footer from "../components/Footer";
-import Abovefooter from "../components/Abovefooter";
+import Abovefooter from "src/components/Abovefooter";
 import circle from "../images/circles/circle.png";
 import { Link } from "react-router-dom";
 
