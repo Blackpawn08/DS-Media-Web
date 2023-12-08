@@ -117,7 +117,7 @@ const About = () => {
           </div>
           <div className="about-4-div-box">
             <h2>Kyle Corpuz</h2>
-            <h1>Front end Developer</h1>
+            <h1>Frontend Developer</h1>
             <p>
               Solving puzzle is the
               <br />
@@ -148,7 +148,7 @@ const About = () => {
           </div>
           <div className="about-4-div-box">
             <h2>Vincent Viojan</h2>
-            <h1>Back end Developer</h1>
+            <h1>Backend Developer</h1>
             <p>
               I like to explore
               <br />
