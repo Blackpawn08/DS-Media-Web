@@ -1,5 +1,5 @@
 import React from "react";
-import "@/css/footer.css";
+import "../css/footer.css";
 import logofooter from "../images/footer/logofooter.png";
 import { BsFacebook } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
