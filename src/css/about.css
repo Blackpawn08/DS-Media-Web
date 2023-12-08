@@ -103,6 +103,8 @@ font-size: 3rem;
   display: flex;
   justify-content: center;
   width: 55%;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 /* About 6 div */
 .about-6-div{
