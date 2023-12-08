@@ -106,7 +106,7 @@ const About = () => {
         <div className="about-4-div">
         <div className="about-4-div-box">
             <h2>Karl Delos - Santos</h2>
-            <h1>Sales Associate</h1>
+            <h1>Founder</h1>
             <p>
               The things I like the
               <br />
