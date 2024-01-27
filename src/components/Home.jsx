@@ -58,7 +58,7 @@ const Home = () => {
               <strong>
                 <span style={{ color: "#8b23f4" }}>professional</span> web
                 <br />
-                <span style={{ color: "#8b23f4" }}>development</span> help
+                <span style={{ color: "#8b23f4" }}>development</span> help!
               </strong>
             </p>
           </div>
