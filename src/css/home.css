@@ -393,6 +393,9 @@ article ul li {
     width: 100%;
     font-size: 2rem;
   }
+  .section-head-div{
+    width: 100%;
+  }
   /*Home 2 div*/
   .home-2-div {
     flex-direction: column;
@@ -402,8 +405,8 @@ article ul li {
     display: flex;
     flex-direction: column;
     gap: 8%;
-    width: 50%;
-    padding: 5rem;
+    width: 75%;
+    padding: 1.5rem;
     margin-right: 0;
     margin-bottom: 0;
   }
@@ -411,8 +414,8 @@ article ul li {
     position: relative;
     flex-direction: column;
     background-color: #1a1a1a;
-    width: 50%;
-    padding: 5rem;
+    width: 75%;
+    padding: 1.5rem;
     margin-top: 4%;
   }
   .home-2-div-p-head {
@@ -432,6 +435,7 @@ article ul li {
   }
   .home-3-div p{
     font-size: 1rem;
+    text-align: left;
   }
   /* Home 4 div */
   .home-4-div {
@@ -448,6 +452,7 @@ article ul li {
   .home-4-div-p {
     color: #1a1a1a;
     font-size: 1rem;
+    text-align: left;
   }
   /*Home 6 div*/
   .home-6-div {
