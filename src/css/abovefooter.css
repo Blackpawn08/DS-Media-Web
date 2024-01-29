@@ -79,11 +79,12 @@
     font-weight: lighter;
 }
 .abovefooter-div-1-p-head{
-    font-size: 1rem;
-    font-weight: lighter;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 .abovefooter-div-1-p-content{
-    font-size: 2rem;
+    font-size: 1rem;
+    text-align: center;
 
 }
   }

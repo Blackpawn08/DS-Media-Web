@@ -64,14 +64,14 @@ const Home = () => {
           </div>
           <div>
             <p className="section-sub">
-              We’ll keep it easy, tell us what you need and
+              We keep easy , tell us what you require and we will
               <br />
-              we’ll make it. Removing the stress from you.
+              make it happen. Removing the stress completely from you.
             </p>
           </div>
           <div>
             <Link to="/contact" className="home-link">
-              <button className="home-btn">Book a Free Consultation</button>
+              <button className="home-btn">Book Consultation</button>
             </Link>
           </div>
         </div>
@@ -105,7 +105,8 @@ const Home = () => {
               into reality, lifting the burden of stress
               <br />
               from your shoulders. After all, websites are
-              <br /> our forte, and we want you to
+              <br /> 
+              our forte, and we want you to
               <br />
               concentrate on what you do best while we
               <br />
@@ -120,8 +121,7 @@ const Home = () => {
             <div>
               <p className="home-2-div-p-head">Update and Modernise</p>
               <p>
-                Specialise in updating and modernizing
-                websites,
+              Specialising in updating and modernising websites,
                 <br />
                 ensuring they not only catch eyes but also stay relevant
                 <br />
@@ -131,9 +131,9 @@ const Home = () => {
             <div>
               <p className="home-2-div-p-head">Seamless Collaboration</p>
               <p>
-                We'll keep you in the loop, providing a clear format of
+              We'll keep your business in mind, providing a clear format of
                 <br />
-                what we need from you. It's a partnership where you're
+                what we require from you. It's a partnership where you're
                 <br />
                 not just a spectator but an integral part of the creative process.
               </p>
@@ -162,19 +162,19 @@ const Home = () => {
         <div className="home-3-div">
           <div className="home-3-div-1">
             <p className="home-3-div-p-1">
-              Our mission is to build
+            Our mission is to build
               <br />
               trusted relationships and
               <br />
               provide exceptional value by
               <br />
-              matching clients with expert
+              matching our clients with expert
               <br />
               web developers that deliver
               <br />
               tailored solutions and drive
               <br />
-              business growth
+              business growth for your company.
             </p>
           </div>
           <div className="home-3-div-2">

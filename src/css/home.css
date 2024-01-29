@@ -28,6 +28,7 @@
   border: none;
   cursor: pointer;
   font-weight: bold;
+  font-size: 0.8rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Subtle shadow */
 }
 .home-btn:hover {
@@ -45,10 +46,12 @@
   font-size: 5vw;
 }
 .section-head {
+  letter-spacing: -0.8px;
   overflow: hidden;
   display: inline-block;
-  border-right: 2px solid; /* Add border to simulate cursor */
-  animation: typing 3s steps(60), cursor 0.5s step-end infinite alternate;
+  border-right: 1.5px solid; /* Add border to simulate cursor */
+  white-space: nowrap; /* Prevent line breaks */
+  animation: typing 4s steps(60), cursor 0.5s step-end infinite alternate;
 }
 
 @keyframes cursor {
@@ -63,13 +66,17 @@
     color: #8b23f4;
   }
   to {
-    width: 50%; /* Change to 100% to ensure smooth appearance */
+    width: 100%; /* Ensure full width for smooth appearance */
   }
 }
 
+.section-head-div {
+  text-align: left; /* Align text to the left for better readability */
+}
+
 .section-sub {
-  letter-spacing: 0.2rem;
-  font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.4rem;
 }
 .home-link{
   text-decoration: none;
@@ -154,7 +161,7 @@
   border-radius: 1rem;
 }
 .home-3-div-p-1 {
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   font-size: 1.4rem;
   height: fit-content;
 }
@@ -396,6 +403,10 @@ article ul li {
   .section-head-div{
     width: 100%;
   }
+  .section-sub {
+    letter-spacing: 0.1rem;
+    font-size: 0.6rem;
+    }
   /*Home 2 div*/
   .home-2-div {
     flex-direction: column;
@@ -409,6 +420,7 @@ article ul li {
     padding: 1.5rem;
     margin-right: 0;
     margin-bottom: 0;
+    font-size: 0.8rem;
   }
   .home-2-div-2 {
     position: relative;
@@ -417,9 +429,11 @@ article ul li {
     width: 75%;
     padding: 1.5rem;
     margin-top: 4%;
+    font-size: 0.8rem;
   }
   .home-2-div-p-head {
     font-size: 1.4rem;
+    letter-spacing: -0.6px;
   }
   /* Home 3 div*/
   .home-3-div {
@@ -505,6 +519,26 @@ article ul li {
 }
 /*Semi-phone*/
 @media (min-width: 479px) and (max-width: 669px) {
+    /* Home 1 div*/
+    .home-1-div {
+      padding-left: 0;
+      padding-right: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
+    .section-head {
+      width: 100%;
+      font-size: 2rem;
+    }
+    .section-head-div{
+      width: 100%;
+    }
+    .section-sub {
+      letter-spacing: 0.1rem;
+      font-size: 0.6rem;
+      }
   /*Home 2 div*/
   .home-2-div {
     position: relative;
@@ -522,8 +556,8 @@ article ul li {
     display: flex;
     flex-direction: column;
     gap: 8%;
-    width: 30%;
-    padding: 5rem;
+    width: 75%;
+    padding: 1.5rem;
     margin-right: 0;
     margin-bottom: 0;
   }
@@ -531,12 +565,12 @@ article ul li {
     position: relative;
     flex-direction: column;
     background-color: #1a1a1a;
-    width: 30%;
-    padding: 5rem;
+    width: 75%;
+    padding: 1.5rem;
     margin-top: 4%;
   }
   .home-2-div-p-head {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   /* Home 3 div*/
   .home-3-div {

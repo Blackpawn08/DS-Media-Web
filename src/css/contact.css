@@ -136,10 +136,10 @@ input:focus {
   display: flex;
   flex-direction: column;
   background-color: #f8f8f8;
-  padding: 2vw;
+  padding: 1rem;
   width: 20rem;
   border-radius: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 
 .contact-3-div-divs p {
@@ -162,7 +162,7 @@ input:focus {
   .contact-1-div {
     display: flex;
     flex-direction: column;
-    padding-top: 3rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
   }
@@ -172,9 +172,16 @@ input:focus {
     font-size: 2rem;
   }
   .contact-1-div p {
-    margin: auto;
-    width: 100%;
-    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 0;
+    text-align: center;
+    width: 50%;
+    font-size: 1.2rem;
+    background-color: #8b23f4;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    color: #f8f8f8;
+    font-weight: 500;
   }
   /* Contact 2 div*/
   .contact-2-div-form {

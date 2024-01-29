@@ -63,7 +63,9 @@
 
 /* Phone */
 @media (max-width: 480px) {
- 
+  .carousel-statement{
+    font-size: 1rem;
+  }
 }
 /*Semi-phone*/
 @media (min-width: 479px) and (max-width: 669px) {
