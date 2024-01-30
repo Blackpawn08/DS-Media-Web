@@ -106,7 +106,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="below-footer-div">
-        <p className="below-footer">© 2023 DS MEDIA. All rights reserved.</p>
+        <p className="below-footer">© 2024 DS MEDIA. All rights reserved.</p>
         <Link to="/privacypolicy" className="home-link">
           <p className="below-footer-policy">Privacy & Policy</p>
         </Link>

@@ -20,7 +20,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: Roboto, sans-serif;
+  font-family: poppins, sans-serif;
   font-size: 1rem;
   font-weight: 500;
   color: #1a1a1a;
@@ -29,8 +29,8 @@ nav {
   left: 0;
   right: 0; 
   padding: 0.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
   background-color: #F8F7F2;
   opacity: 95%;
   z-index: 1000;
@@ -41,7 +41,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 6vw;
+  gap: 4vw;
   width: 100vw;
 }
 nav ul li {
@@ -52,7 +52,7 @@ nav ul li a {
   display: block;
   justify-content: center;
   text-decoration: none;
-  padding: 1rem;
+  padding: 0.5rem;
   margin: 0.1rem;
   align-items: center;
   border-radius: 0.5rem;
@@ -87,10 +87,7 @@ nav ul li a {
   color: #8b23f4;
   transition: color 0.5s ease, transform 0.5s ease;
 }
-.nav-icon {
-  width: 2rem;
-  height: 1.5rem;
-}
+
 nav ul li a:not(.active):hover {
   background-color: #8b23f4;
   color: white;
@@ -118,7 +115,7 @@ nav .menu span {
 .visible {
   opacity: 1;
   transform: translateY(0);
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .hidden {
